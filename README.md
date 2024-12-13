@@ -9,3 +9,5 @@ The index.html is the main HTML file which has the skeleton of the project assig
 The style.css file has the design file that helped me to replicate the assigned design . <br><br>
 
 By making the First Capstone project , I have gotten hands-on experience with the application of the basic yet fundamental concepts of Web Dev. we have been taught in class . <br.<br>
+
+Figma link:- https://www.figma.com/design/p7HVrsGJysxYwHL8T7UOpT/485?m=auto&t=l4x2uIR9lZNflhuc-6  <br><br>
