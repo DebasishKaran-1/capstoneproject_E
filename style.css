@@ -74,21 +74,6 @@ nav ul li a {
   font-size: 32px;
   font-weight: bold;
 }
-
-@keyframes shadow {
-  0% {
-      text-shadow: none;
-  }
-
-  50% {
-      text-shadow: 0px 2px 45px black;
-  }
-
-  100% {
-      text-shadow: none;
-  }
-}
-
 .paragraph{
   height: 300px;
   width: 600px;
@@ -110,7 +95,6 @@ nav ul li a {
   max-width: 70%;
   border-radius: 10px;
 }
-
 .grid-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -155,7 +139,6 @@ nav ul li a {
   font-family: "Lexend Exa", serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  /* font-style:  */
   font-size: 28px;
   line-height: 32px;
   letter-spacing:-1%;
