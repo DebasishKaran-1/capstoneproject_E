@@ -260,3 +260,80 @@ nav ul li a {
 .skip-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .paragraph2 {
+    width: 90%;
+    height: auto;
+  }
+
+  .paragraph {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .digit {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .send-button {
+    width: 160px;
+    height: 40px;
+    font-size: 0.9rem;
+  }
+
+  h1 a {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .grid-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    font-size: 24px;
+  }
+
+  .boxes {
+    gap: 5px;
+  }
+
+  .digit {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .send-button {
+    width: 140px;
+    height: 35px;
+    font-size: 0.8rem;
+  }
+
+  .paragraph2,
+  .paragraph {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
